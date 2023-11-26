@@ -45,10 +45,6 @@ systemctl --user enable desktop_cube.service
 
 For the sake of simplicity and brevity, this demo utilizes the fixed-function pipeline elements of OpenGL. Those looking to adapt or expand upon this code might consider updating to a more modern, shader-based approach.
 
-## Note on Running via XWayland
-
-While this demo is compatible with Wayland through the XWayland compatibility layer, it's worth noting that running X applications via XWayland can introduce some overhead. During my tests in a virtual machine, running the demo via XWayland consumed significantly more resources compared to running it natively on X.
-
 ## Known Limitations
 
 - While the demo should work with basic multi-screen setups, it might not render correctly in configurations where monitors are stacked or vary in size.
