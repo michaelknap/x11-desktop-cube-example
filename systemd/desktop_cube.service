@@ -1,0 +1,10 @@
+[Unit]
+Description=Desktop Cube Animated Wallpaper
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/opt/cube/desktop_cube
+
+[Install]
+WantedBy=default.target
