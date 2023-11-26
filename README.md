@@ -48,6 +48,7 @@ For the sake of simplicity and brevity, this demo utilizes the fixed-function pi
 ## Known Limitations
 
 - While the demo should work with basic multi-screen setups, it might not render correctly in configurations where monitors are stacked or vary in size.
+- On systems without dedicated GPU, this app may cause higher CPU usage.
 
 
 ## License
