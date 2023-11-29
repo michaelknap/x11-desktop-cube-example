@@ -42,7 +42,7 @@
 // Flag to control program termination
 volatile sig_atomic_t terminate = 0;
 
-// FPS and frame duration constants to be used if V-Sync not available
+// FPS and frame duration constants
 const int TARGET_FPS = 60;
 const int TARGET_FRAME_DURATION = 1000000 / TARGET_FPS;
 
